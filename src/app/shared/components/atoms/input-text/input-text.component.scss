@@ -1,0 +1,21 @@
+.input-text-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+  .input-icon {
+    position: absolute;
+    left: 10px; /* Ajusta según tu necesidad */
+    width: 16px; /* Tamaño de la imagen */
+    height: 20px; /* Tamaño de la imagen */
+  }
+
+  .input-text {
+    padding-left: 40px; /* Espacio para la imagen */
+    width: 240px;
+    height: 50px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,28 @@
+.search-options {
+  display: flex;
+  margin: 0;
+  border-radius: 10px 10px 0px 0px;
+  background-color:rgba(36, 36, 36, 1);
+  width: 748px;
+}
+
+.search-options app-button {
+display: flex;
+font-size: 20px;
+color: aliceblue;
+width: 187px;
+height: 78px;
+align-items: center;
+justify-content: space-around;
+}
+
+.search-options app-button:hover {
+  background-color: rgba(71, 117, 132, 1);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.search-options app-button img {
+  margin-right: 8px; /* Espacio entre la imagen y el texto */
+  width: 25px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+  height: 25px;
+}

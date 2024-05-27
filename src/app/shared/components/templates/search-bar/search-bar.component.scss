@@ -1,0 +1,11 @@
+.search-bar {
+  position: absolute; /* Puede ser fixed si quieres que esté fija al hacer scroll */
+  bottom:-115px;
+  left: 6%;
+  width: 90%;
+  padding: 0px;
+  text-align: center;
+  justify-content: center;
+  z-index: 1000; /* Valor alto para asegurar que esté encima de otros elementos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra para resaltar */
+}

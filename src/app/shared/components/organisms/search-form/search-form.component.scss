@@ -1,0 +1,79 @@
+.search-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  box-sizing: border-box;
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .radio-container {
+      display: flex;
+      padding: 5px 0px 20px 0px;
+    }
+    h1{
+      color: #333; 
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .check {
+      padding-left: 10px; 
+    }
+    .check input[type="radio"] {
+      appearance: none;
+      border: 1px solid #000; 
+      background-color: rgba(217, 217, 217, 1);
+      width: 16px; 
+      height: 16px; 
+      margin-right: 5px; 
+    }
+    .check input[type="radio"]:checked {
+      background-color: rgb(146, 146, 148);
+    }
+  }
+  .check2, .check3 {
+    display: flex;
+    align-items: center;  
+    gap: 8px;
+    font-size: 16px;
+    padding: 0px 0px 10px 0px;
+  }
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  
+    .input-number {
+      width: 125px;
+      height:50px;
+      border: 1px solid rgb(135, 134, 134);
+      border-radius: 5px; 
+      padding: 5px; 
+      font-size: 16px; 
+      border-color: rgba(0, 0, 0, 0.2); 
+      box-sizing: border-box;
+      text-align: right;
+    }
+    .Share{
+      padding: 25px 0px 0px 0px;
+    }
+
+    .ShareB{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(36, 36, 36, 1);
+      width: 150px;
+      height: 50px;
+      border-radius: 20px;
+    }
+  }
+
+  .input-date1 {
+    padding: 0px 20px 0px 0px;
+}
+
+
+
+}
