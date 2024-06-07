@@ -1,0 +1,85 @@
+@import '../../../../../styles/colors.scss';
+@import '../../../../../styles/app-loading.scss';
+
+form{
+    display: flex;
+    background-image: url('../../../../../assets/images/fondoLogin.png');
+    background-size: cover;
+    
+.logo{
+    width: 350px;
+    height: 98px;
+    margin: 40px 0px;
+    }
+    
+    .formulari{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 540px;
+        background-color: $colorBackground;
+    }
+    .register-google{
+        display: flex;
+        align-items: center;    
+        background-color: $color-primary;
+        border-radius: 10px;
+        width: 408px;
+        height: 65px;
+        cursor: pointer;
+    }
+    .lineas-centro{
+        display: flex;
+        align-items: center;
+    }
+    hr{
+        border: solid 1px black;
+        margin: 0px 5px;
+        width: 182px;
+    }
+    
+    .lineas-centro p{
+        font-size: 24px;
+        font-family: $poppins;
+        font-weight: 300;
+    }
+    
+    .register{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $color-primary;
+        border-radius: 10px;
+        width: 408px;
+        height: 65px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    
+    
+    
+    .register-google img{
+        width: 20px;
+        height: 20px;
+        padding: 0px 50px;
+    }
+    
+    
+    p,a{
+        text-decoration: none;
+        font-family:$poppins ;
+        font-size: 16px;
+        font-weight: 275;
+        a{
+            color: $color-primary;
+            font-weight: 700;
+        }
+    }
+
+    .error-message{
+        color: red;
+        font-size: 15px;
+    }
+}
+

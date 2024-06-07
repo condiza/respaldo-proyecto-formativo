@@ -1,0 +1,22 @@
+<div class="modal-overlay" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <div class="header">
+      <h2>Inicio Sesión</h2>
+      <app-button-close class="close-button" (click)="closeModal()"></app-button-close>
+    </div>
+    <div class="body">
+      <div class="register-google" (click)="onClick()" (click)="closeModal()">
+        <img src="assets/icons/google.png" alt="">
+        <app-button >Continúa con Google</app-button>
+        </div>
+        <div class="lineas-centro">
+          <hr><p>o</p><hr>
+        </div>
+      <app-login-form></app-login-form>
+    </div>
+    <div class="register" (click)="onClick()" (click)="closeModal()">
+      <app-button>Continua</app-button >
+      </div>
+      <p>¿No tienes una cuenta? <a href="Registro">Registrate</a></p>
+  </div>
+</div>

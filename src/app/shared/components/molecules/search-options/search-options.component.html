@@ -1,6 +1,22 @@
 <div class="search-options">
-  <app-button><img src="assets/icons/plane.png"> Vuelos</app-button>
-  <app-button><img src="assets/icons/hotel.png"> Hoteles</app-button>
-  <app-button><img src="assets/icons/packed.png"> Paquete</app-button>
-  <app-button><img src="assets/icons/cruise.png"> Cruceros</app-button>
+  <div class="color1" [ngClass]="{'red': selectedButton === 1}" (click)="cambiarColor(1); enlace()">
+    <app-button class="btn" [buttonClass]="'primary'">
+      <img src="assets/icons/plane.png" alt="Vuelos"> Vuelos
+    </app-button>
+  </div>
+  <div class="color2" [ngClass]="{'red': selectedButton === 2}" (click)="cambiarColor(2)">
+    <app-button class="btn" [buttonClass]="'primary'">
+      <img src="assets/icons/hotel.png" alt="Hoteles"> Hoteles
+    </app-button>
+  </div>
+  <div class="color3" [ngClass]="{'red': selectedButton === 3}" (click)="cambiarColor(3)">
+    <app-button class="btn" [buttonClass]="'primary'">
+      <img src="assets/icons/packed.png" alt="Paquete"> Paquete
+    </app-button>
+  </div>
+  <div class="color4" [ngClass]="{'red': selectedButton === 4}" (click)="cambiarColor(4)">
+    <app-button class="btn" [buttonClass]="'primary'">
+      <img src="assets/icons/cruise.png" alt="Cruceros"> Cruceros
+    </app-button>  
+  </div>
 </div>

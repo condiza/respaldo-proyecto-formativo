@@ -1,0 +1,11 @@
+<div class="card-list">
+    <app-card *ngFor="let card of cards"
+ [title]="card.title"
+  [subtitle]="card.subtitle" 
+  [price]="card.price" 
+  [imageSrc]="card.imageSrc"
+   [imageAlt]="card.imageAlt">
+</app-card>
+</div>
+
+  

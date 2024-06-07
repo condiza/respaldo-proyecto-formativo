@@ -1,0 +1,13 @@
+@import '../../../../../styles/app-loading.scss';
+.footer-link {
+    font-family: $poppins;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-link:hover {
+    color: #333;
+  }

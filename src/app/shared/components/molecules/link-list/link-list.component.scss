@@ -1,0 +1,15 @@
+
+
+ul {
+    list-style: none;
+    padding: 0;
+  
+    li {
+      margin: 5px 0;
+  
+      app-footer-link {
+        font-size: 14px;
+      }
+    }
+  }
+  

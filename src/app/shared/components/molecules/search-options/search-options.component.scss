@@ -2,27 +2,35 @@
   display: flex;
   margin: 0;
   border-radius: 10px 10px 0px 0px;
-  background-color:rgba(36, 36, 36, 1);
+  background-color: rgba(36, 36, 36, 1);
   width: 748px;
 }
 
 .search-options app-button {
-display: flex;
-font-size: 20px;
-color: aliceblue;
-width: 187px;
-height: 78px;
-align-items: center;
-justify-content: space-around;
+  display: flex;
+  font-size: 20px;
+  color: aliceblue;
+  width: 187px;
+  height: 78px;
+  align-items: center;
+  justify-content: space-around;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.color1, .color2, .color3 , .color4 {
+  background-color: initial;
 }
 
-.search-options app-button:hover {
+.red {
   background-color: rgba(71, 117, 132, 1);
   border-radius: 10px 10px 0px 0px;
+  transition:   background-color 0.2s,  border-radius 0s;
 }
 
 .search-options app-button img {
-  margin-right: 8px; /* Espacio entre la imagen y el texto */
-  width: 25px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+  margin-right: 8px;
+  width: 25px; 
   height: 25px;
 }

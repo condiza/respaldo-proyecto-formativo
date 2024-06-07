@@ -1,0 +1,9 @@
+<div class="contenedor-footer">
+    <app-footer-title>{{ title }}</app-footer-title>
+<ul>
+    <li *ngFor="let link of links">
+      <app-footer-link [url]="link.url">{{link.text}}</app-footer-link>
+    </li>
+</ul>
+  
+</div>

@@ -1,7 +1,36 @@
-.input-date {
+@import '../../../../../styles/app-loading.scss';
+.input-text-wrapper {
+  display: flex;
+  align-items: center;
   width: 200px;
-  height: 50px;
-  border-color: rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
+  height: 32px;
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  padding: 7px 0px 7px 14px;
   border-radius: 5px;
+}
+
+.input-text-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-date {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 3vh;
+  opacity: 0;
+  border: none;
+}
+.input-text {
+  margin-left: 8px; 
+  font-size: 16px;
+  font-weight: 275;
+  font-family: $poppins;
+  color:#00000066;
+}
+.input-icon {
+  width: 20px;
+  height: 20px;
 }

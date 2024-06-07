@@ -1,0 +1,20 @@
+@import '../../../../../styles/colors.scss';
+@import '../../../../../styles/app-loading.scss';
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-primary;
+  padding: 10px 40px;
+}
+
+.contact {
+  display: flex;
+  gap: 100px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}

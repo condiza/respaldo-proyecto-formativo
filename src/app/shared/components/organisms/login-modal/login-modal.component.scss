@@ -1,0 +1,98 @@
+@import '../../../../../styles/app-loading.scss';
+@import '../../../../../styles/colors.scss';
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  align-items: center;
+  border-radius: 20px;
+  width: 440px;
+  height: 700px;
+  padding: 10px 30px 30px 30px;
+  background-color: rgba(238, 238, 238, 1);
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60vw;
+  align-items: baseline;
+  margin-bottom: 10px;
+  h2{
+    margin-left: 30px;
+    font-size: 24px;
+    font-family: $poppins;
+    font-weight: 400;
+  }
+}
+
+.register-google{
+  display: flex;
+  align-items: center;    
+  background-color: $color-primary;
+  border-radius: 10px;
+  width: 408px;
+  height: 65px;
+  cursor: pointer;
+  margin-left: 9px;
+
+}
+.register-google img{
+  width: 20px;
+  height: 20px;
+  padding: 0px 50px;
+}
+.lineas-centro{
+  display: flex;
+  align-items: center;
+}
+hr{
+  border: solid 1px black;
+  width: 182px;
+}
+
+.lineas-centro p{
+  font-size: 24px;
+  font-family: $poppins;
+  font-weight: 300;
+}
+.register{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $color-primary;
+  border-radius: 10px;
+  width: 408px;
+  height: 65px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+p,a{
+  text-decoration: none;
+  font-family:$poppins ;
+  font-size: 16px;
+  font-weight: 275;
+  a{
+      color: $color-primary;
+      font-weight: 700;
+  }
+}

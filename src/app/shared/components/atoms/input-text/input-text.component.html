@@ -1,5 +1,6 @@
 <div class="input-text-container">
-    <img src="assets/icons/ubication.png" alt="Search Icon" class="input-icon">
-    <input type="text" class="input-text" [placeholder]="placeholder">
-  </div>
-  
+  <img [src]="src" [alt]="alt" class="input-icon">
+  <input *ngIf="type === 'text'" type="text" class="input-text" [placeholder]="placeholder">
+  <input *ngIf="type === 'number'" type="number" class="input-number" [placeholder]="placeholder" [min]="min">
+  <!-- Puedes agregar más casos según tus necesidades -->
+</div>

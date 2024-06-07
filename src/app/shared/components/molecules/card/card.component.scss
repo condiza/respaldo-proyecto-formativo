@@ -1,0 +1,60 @@
+@import '../../../../../styles/app-loading.scss';
+
+*{
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 315px;
+    height: 315px;
+  }
+
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 8px 0px 0px 25px;
+  }
+  
+  h3 {
+    font-family:$poppins ;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  p {
+    margin: 3px 0;
+    font-family:$poppins ;
+    font-weight: 275px;
+    font-style: normal;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-family:$poppins ;
+    font-weight: 400;
+    color: #242424;
+  }
+  
+  .input-icon {
+    width: 12px;
+    height: 16px; 
+    height: auto;
+    margin-right: 8px; 
+  }

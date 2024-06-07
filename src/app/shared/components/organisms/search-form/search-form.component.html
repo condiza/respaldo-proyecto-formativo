@@ -3,37 +3,35 @@
     <div class="inicio">
       <h1>¡Busca tu destino soñado!</h1>
       <div class="radio-container">
-        <label class="check">
-          <input type="radio" name="trip-type" value="one-way"> Ida y vuelta
-        </label>
-        <label class="check">
-          <input type="radio" name="trip-type" value="one-way"> Solo ida
-        </label>
-        <label class="check">
-          <input type="radio" name="trip-type" value="multi-destination"> Multi destino
-        </label>
+        <app-check text="Ida y vuelta" name="group1"></app-check>
+        <app-check text="Solo ida" name="group1"></app-check>
+        <app-check text="Multi destino" name="group1"></app-check>
+        
       </div>
     </div>
     
     <div class="input-group">
       <div class="input-row">
         <label class="check3">Origen:</label>
-        <app-input-text placeholder="Ingrese una ciudad"></app-input-text>
+        <app-input-text type="text" src="assets/icons/ubication.png" alt="Search Icon" placeholder="Ingrese una ciudad"></app-input-text>
          </div>
       <div class="input-row">
         <label class="check3">Destino:</label>
-        <app-input-text placeholder="Ingrese una ciudad"></app-input-text>
+        <app-input-text type="text" src="assets/icons/ubication.png" alt="Search Icon" placeholder="Ingrese una ciudad"></app-input-text>
       </div>
       <div class="input-row">
         <label class="check2">Fechas:</label>
-        <app-input-date class="input-date1"></app-input-date>
-        <app-input-date class="input-date"></app-input-date>
+        <div class="inputs-container">
+          <app-input-date src="assets/icons/date.png" [txt]="'Ida'"><span class="input-text">ida</span></app-input-date>
+          <app-input-date src="assets/icons/date.png" [txt]="'Vuelta'"></app-input-date>
+        </div>
       </div>
       
       
       <div class="input-row">
         <label class="check2">Pasajeros</label>
-        <input type="number" class="input-number" placeholder="1" min="1">
+        <app-input-text type="number" src="assets/icons/person.png" alt="Search Icon" placeholder="1"></app-input-text>
+
       </div>
       <div class="Share">
         <app-button class="ShareB" type="submit">Buscar</app-button>

@@ -1,0 +1,29 @@
+@import '../../../../../styles/app-loading.scss';
+h1{
+  font-size: 20px;
+  font-family: $poppins;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.otrasElecciones{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 10px 0px;
+}
+.otrasElecciones a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 275;
+  font-family: $poppins;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.check input[type="radio"] {
+  appearance: none;
+  border: 1px solid #000; 
+  background-color: rgba(217, 217, 217, 1);
+  width: 16px; 
+  height: 16px; 
+  margin-right: 5px; 
+}

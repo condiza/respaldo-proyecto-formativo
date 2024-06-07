@@ -1,9 +1,8 @@
 .search-form {
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 10px 10px 10px ;
   padding: 24px;
-  box-sizing: border-box;
+
   .inicio {
     display: flex;
     flex-direction: column;
@@ -17,20 +16,6 @@
       font-size: 24px;
       margin-bottom: 20px;
     }
-    .check {
-      padding-left: 10px; 
-    }
-    .check input[type="radio"] {
-      appearance: none;
-      border: 1px solid #000; 
-      background-color: rgba(217, 217, 217, 1);
-      width: 16px; 
-      height: 16px; 
-      margin-right: 5px; 
-    }
-    .check input[type="radio"]:checked {
-      background-color: rgb(146, 146, 148);
-    }
   }
   .check2, .check3 {
     display: flex;
@@ -43,7 +28,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-  
+
     .input-number {
       width: 125px;
       height:50px;
@@ -70,10 +55,18 @@
     }
   }
 
-  .input-date1 {
-    padding: 0px 20px 0px 0px;
-}
+  .inputs-container {
+    display: flex;
+    flex-direction: row;  /* Esto asegura que los elementos estén en una fila */
+    gap: 20px;  /* Espacio entre los componentes */
+  }
 
+  .input-icon {
+    position: absolute;
+    left: 10px;
+    width: 16px; 
+    height: 20px;
+  }
 
 
 }

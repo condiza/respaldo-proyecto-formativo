@@ -1,0 +1,22 @@
+<footer>
+  <div class="footer-section">
+    <app-link-list title="Acerca de Odyssey Expedition" [links]="acercaLinks"></app-link-list>
+    <app-link-list title="Información de interés" [links]="informacionLinks"></app-link-list>
+    <app-link-list title="Información legal" [links]="legalLinks"></app-link-list>
+  </div>
+  
+  <div class="footer-copy">
+    <div class="arrowUp" (click)="scrollToTop()">
+      <img src="assets/icons/arrowUp.png" alt="">
+    </div>
+    <div class="social-icons">
+      <app-social-icon link="#" icon="assets/icons/whatsApp.png" alt="WhatsApp"></app-social-icon>
+      <app-social-icon link="#" icon="assets/icons/instagrm.png" alt="Instagram"></app-social-icon>
+      <app-social-icon link="#" icon="assets/icons/X.png" alt="Twitter"></app-social-icon>
+      <app-social-icon link="#" icon="assets/icons/facebook.png" alt="Facebook"></app-social-icon>
+    </div>
+    <div class="text">
+      &#64; All Copyright 2024
+    </div>
+  </div>
+</footer>

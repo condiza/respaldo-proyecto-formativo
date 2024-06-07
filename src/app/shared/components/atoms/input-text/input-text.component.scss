@@ -5,17 +5,28 @@
   
   .input-icon {
     position: absolute;
-    left: 10px; /* Ajusta según tu necesidad */
-    width: 16px; /* Tamaño de la imagen */
-    height: 20px; /* Tamaño de la imagen */
+    left: 10px;
+    width: 16px; 
+    height: 20px;
   }
 
   .input-text {
-    padding-left: 40px; /* Espacio para la imagen */
-    width: 240px;
+    padding-left: 40px; 
+    width: 200px;
     height: 50px;
     border-color: rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
     border-radius: 5px;
   }
+  .input-number {
+    width: 125px;
+    height:50px;
+    border: 1px solid rgb(135, 134, 134);
+    border-radius: 5px; 
+    padding: 5px; 
+    font-size: 16px; 
+    border-color: rgba(0, 0, 0, 0.2); 
+    box-sizing: border-box;
+    text-align: right;
+  }  
 }

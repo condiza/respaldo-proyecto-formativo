@@ -1,0 +1,21 @@
+@import '../../../../../styles/app-loading.scss';
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+
+  }
+  
+  .form-label {
+    font-family: $poppins;
+    font-size: 20x;
+    font-weight: 300;
+    margin:0px 0px 10px 0px;
+  }
+  
+  .form-control {
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
