@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavBarComponent } from './components/organisms/nav-bar/nav-bar.component';
-import { DatesComponent } from './components/dates/dates.component';
 import { ButtonComponent } from './components/atoms/button/button.component';
 import { InputTextComponent } from './components/atoms/input-text/input-text.component';
 import { InputDateComponent } from './components/atoms/input-date/input-date.component';
 import { InputGroupComponent } from './components/molecules/input-group/input-group.component';
 import { SearchOptionsComponent } from './components/molecules/search-options/search-options.component';
 import { SearchFormComponent } from './components/organisms/search-form/search-form.component';
-import { SearchBarComponent } from './components/templates/search-bar/search-bar.component';
+import { SearchBarComponent } from './components/organisms/search-bar/search-bar.component';
 import { ImageComponent } from './components/atoms/image/image.component';
 import { CardComponent } from './components/molecules/card/card.component';
 import { CardListComponent } from './components/organisms/card-list/card-list.component';
@@ -40,11 +39,12 @@ import { InputComponent } from './components/atoms/input/input.component';
 import { FormFieldComponent } from './components/molecules/form-field/form-field.component';
 import { RegisterFormComponent } from './components/organisms/register-form/register-form.component';
 import { RegisterPageComponent } from './components/templates/register-page/register-page.component';
-import { LoginComponent } from '../features/feature-a/pages/login/login.component';
+import { RegisterComponent } from '../features/feature-a/pages/Auth/register/register.component';
 import { ButtonCloseComponent } from './components/atoms/button-close/button-close.component';
 import { CheckComponent } from './components/atoms/check/check.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { IconsSearchFromComponent } from './components/atoms/icons-search-from/icons-search-from.component';
+import { DatesComponent } from './components/templates/dates/dates.component';
 
 @NgModule({
   declarations: [
@@ -88,7 +88,7 @@ import { IconsSearchFromComponent } from './components/atoms/icons-search-from/i
     FormFieldComponent,
     RegisterFormComponent,
     RegisterPageComponent,
-    LoginComponent,
+    RegisterComponent,
     ButtonCloseComponent,
     CheckComponent,
     IconsSearchFromComponent,
