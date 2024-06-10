@@ -1,0 +1,39 @@
+{
+  "vuelo":[
+  {
+    "id": 1,
+    "title": "Bogota",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQgh46w-2YXkQr5aKRi-_zb25AjXoKFkXcN5kFL1CAmKN9pxysKYxZAlO1Hec5Y1PxXYa5I5kRQn0hPZ9t5lberkS26OqneKM4OsgMqQik",
+    "imageAlt": "Precio por pareja"
+  },
+  {
+    "id": 2,
+    "title": "Medellin",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://getvico.com/blog/wp-content/uploads/2023/03/Mejores-barrios-Medellin.jpg",
+    "imageAlt": "Precio por pareja"
+  },
+  {
+    "id": 3,
+    "title": "Barranquilla",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQgh46w-2YXkQr5aKRi-_zb25AjXoKFkXcN5kFL1CAmKN9pxysKYxZAlO1Hec5Y1PxXYa5I5kRQn0hPZ9t5lberkS26OqneKM4OsgMqQik",
+    "imageAlt": "Precio por pareja"
+  },
+  {
+    "id": 4,
+    "title": "Cali",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQgh46w-2YXkQr5aKRi-_zb25AjXoKFkXcN5kFL1CAmKN9pxysKYxZAlO1Hec5Y1PxXYa5I5kRQn0hPZ9t5lberkS26OqneKM4OsgMqQik",
+    "imageAlt": "Precio por pareja"
+  }
+]}
