@@ -1,16 +1,27 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ApiService } from '../../../../features/feature-a/services/api.service';
+import { Cart } from '../../../../features/feature-a/models/cart.models';
 
 @Component({
   selector: 'app-travel-section',
   templateUrl: './travel-section.component.html',
   styleUrl: './travel-section.component.scss'
 })
-export class TravelSectionComponent {
-  @Input() sectionTitle: string = ''; 
-  cards = [
-    { title: 'Bogota', subtitle: 'Salida desde Medellín', price: '$200.000', imageSrc: 'assets/images/bogota.png', imageAlt: 'Bogota' },
-    { title: 'Bogota', subtitle: 'Salida desde Medellín', price: '$200.000', imageSrc: 'assets/images/bogota.png', imageAlt: 'Bogota' },
-    { title: 'Bogota', subtitle: 'Salida desde Medellín', price: '$200.000', imageSrc: 'assets/images/bogota.png', imageAlt: 'Bogota' },
-    { title: 'Bogota', subtitle: 'Salida desde Medellín', price: '$200.000', imageSrc: 'assets/images/bogota.png', imageAlt: 'Bogota' },
-  ];
+export class TravelSectionComponent implements OnInit {
+  public vuelo: Cart[] = [];
+  @Input() sectionTitle: string = '';
+
+  constructor(private apiService: ApiService) { }
+
+  ngOnInit(): void {
+    this.apiService.getCartList()
+      .subscribe(
+        res => {
+          this.vuelo = res;
+        },
+        error => {
+          console.error('Error fetching cart list:', error);
+        }
+      );
+  }
 }

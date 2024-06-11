@@ -1,0 +1,18 @@
+.img-nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .fondo{
+        width:98vw;
+        height: 298px;
+      }
+
+    .tex-overlay {
+        position: absolute;
+        z-index: 1; 
+    }
+}
+

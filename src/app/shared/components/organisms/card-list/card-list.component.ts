@@ -6,8 +6,11 @@ import { Component, Input } from '@angular/core';
   styleUrl: './card-list.component.scss'
 })
 export class CardListComponent {
-  @Input() cards: { title: string,
-     subtitle: string, 
+  @Input() cards: {
+    id?:string,
+    title: string,
+     subtitle: string,
+     titlePrice:string,
      price: string, 
      imageSrc: string, 
      imageAlt: string }[] = [];

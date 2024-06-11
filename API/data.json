@@ -1,0 +1,76 @@
+{
+    "cart":[
+    {
+      "id": 1,
+      "title": "Bhairab Bāzār",
+      "subtitle": "AU",
+      "price": "4000477935",
+      "imageSrc": "https://example.com/images/bhairab_bazar.png",
+      "imageAlt": "Magway"
+    },
+    {
+      "id": 2,
+      "title": "Jincheng",
+      "subtitle": "AZ",
+      "price": "8535419969",
+      "imageSrc": "https://example.com/images/jincheng.png",
+      "imageAlt": "Anning"
+    },
+    {
+      "id": 3,
+      "title": "Rio Claro",
+      "subtitle": "IT",
+      "price": "3098767782",
+      "imageSrc": "https://example.com/images/rio_claro.png",
+      "imageAlt": "Jirkov"
+    },
+    {
+      "id": 4,
+      "title": "Velykyy Klyuchiv",
+      "subtitle": "LK",
+      "price": "2015356118",
+      "imageSrc": "https://example.com/images/velykyy_klyuchiv.png",
+      "imageAlt": "Hobaramachi"
+    },
+    {
+      "id": 5,
+      "title": "Toupopu",
+      "subtitle": "ID",
+      "price": "8654827068",
+      "imageSrc": "https://example.com/images/toupopu.png",
+      "imageAlt": "Kota Kinabalu"
+    },
+    {
+      "id": 6,
+      "title": "Karlstad",
+      "subtitle": "US",
+      "price": "2828454584",
+      "imageSrc": "https://example.com/images/karlstad.png",
+      "imageAlt": "Lantang"
+    },
+    {
+      "id": 7,
+      "title": "Santos",
+      "subtitle": "GA",
+      "price": "5406135503",
+      "imageSrc": "https://example.com/images/santos.png",
+      "imageAlt": "Ueda"
+    },
+    {
+      "id": 8,
+      "title": "Cali",
+      "subtitle": "PG",
+      "price": "3221530366",
+      "imageSrc": "https://example.com/images/cali.png",
+      "imageAlt": "Ewirgol"
+    },
+    {
+      "id": 9,
+      "title": "Jinshi",
+      "subtitle": "US",
+      "price": "1941714870",
+      "imageSrc": "https://example.com/images/jinshi.png",
+      "imageAlt": "Jinshi"
+    }
+]}
+  

@@ -1,0 +1,39 @@
+{
+  "vuelo":[
+  {
+    "id": 1,
+    "title": "Bogota",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://s3-alpha-sig.figma.com/img/9cd3/4eba/a1f7eeff8ae9e1f97a9379ab3f2bc8f5?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tym9U0qz90NnRPlT1IWQJQsFrGSg~9a4Bf3oVb6inT0HlEQpcKTCHrdduWJLqtM~TmW05PSG46CmppGRiRSe~0O44Yd4oLhrCX5Un9WdIEklqv4ANtCEepNS-MJCu6l5waMkGvda93Ipe5fS7e2PCBExudssSfEOHJc2W056cqzeEs7PKPtiqxrAil0xrYqwKX-UjA3b7gVUJjvaH7fsgbR8OnrhXrh7BnC~u57gjkEEKvpsp2fn34pxDf1zpPtQLwIzvAru5Ml1um-ZxlD-dDGKox1Lc6RKZV290hGctRez69oTvgJF~bnDbClteQzlXU~ZB2INIfE8Zcx5cfuNGw__",
+    "imageAlt": "Precio por pareja"
+  },
+  {
+    "id": 2,
+    "title": "Medellin",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://s3-alpha-sig.figma.com/img/5539/3024/d974065347a641300d2f7c4e03d3b241?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WX0oXRqHKtPi7MH2uFqXaT~aZ00klt6BcK4wW-8Hd3RrliCnfoEYpmqyoSuTI4SWKKh1vXN8kzCKQMBiSj2eu~SpYOK4HgDICOEEAbh1pAIK3r9VUuLsJpY05ez8WhkIMi8c6ing6RRaYpb5q5HmHsJEWlQpf4xK5IU1LgdYXPTX-CIIP6X8P2BT5HgljjAvNcVXk~-XjLFpiV14uLWWB37UcXOR~TxwM-rquTm8CslLCMJPp9ADf8e5GP3ZHFLFXbW3WS~d3lz5wntab~oPMU4RbsqSbBSDg3vpNY3wpODxmd574Tg55AYlAqzrbYOUJ544Lg7ik~pMDMT1uAt3EQ__",
+    "imageAlt": "Precio por pareja"
+  },
+  {
+    "id": 3,
+    "title": "Barranquilla",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://s3-alpha-sig.figma.com/img/a8ba/734e/75eb7727cdba81a20deb1a8606c5ccf1?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h4jF~zoru-pzVrTHn1q~Ov7J0Ahj961FM5sYyF7OzYPMOls-8ATPSvbVXahUyFbSDE3WPW9xr16X5O8YYYukTn7uoVO77-Wp5ZvlRK5TJBHDaIveFWlVbcC~WgnK70-mMwSf-O2yWLXwt16pnoBOXQ9gAuHWz97sSCQZYlGUaMqiPNFFpi6KUfVl3a5JWpzHKDgntKrDbtrIGmDzS2n3alLSxDinV3I9xViDvk2TYguXNNwmyKJTY6Gj3rvOrGSI7SNZK-fWhZRwLCZbuZkSex1VvZdsjv9HBuk6JSwWZx2XNfwZplYf9P6qiuxWLysngL9GD23WCIh3YcvQSDhM9A__",
+    "imageAlt": "Precio por pareja"
+  },
+  {
+    "id": 4,
+    "title": "Cali",
+    "subtitle": "Salida desde Medellin",
+    "titlePrice":"Desde",
+    "price": "$200.000",
+    "imageSrc": "https://s3-alpha-sig.figma.com/img/7050/a6ab/f1a306c903a8c51c80becd90366c7dad?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JyZbi5gJ2ZTgDEhYz8BMvNYC0Eoz~BafsrfUpphyj9fy758Sa2B8~5sSJJPwykx~G3L-BxP5-t-d95Lm4dXr6YAOOMYDSt2GLQ6Jch97uS9o1NMKYyrxhsO~Y3IAGfc3xGHUZGzctc~CNRoHjWQb-YmH7R6mkD9fPSKFNxXxydXmRu7m0kYk4OD8DKIGXuaxAG9oHL53xyTNaEEPiQr73kiJ9LYDKA2KyCoUl1TANDvHEtzlKWsR0uyXgpyaqF8qntjBCaULmQ~yCwqaoBUs2fyfRmajDxy1Bjt4ysGB~49IkXmV85uBRxQ5Ovfvf-IwdPYMEacQykGSGGWAKfrBfQ__",
+    "imageAlt": "Precio por pareja"
+  }
+]}
