@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tex',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './tex.component.scss'
 })
 export class TexComponent {
-
+@Input() txt:string = '';
 }

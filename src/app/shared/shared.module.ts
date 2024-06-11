@@ -23,7 +23,6 @@ import { HeaderComponent } from './components/templates/header/header.component'
 import { IconUserComponent } from './components/atoms/icon-user/icon-user.component';
 import { FooterLinkComponent } from './components/atoms/footer-link/footer-link.component';
 import { FooterTitleComponent } from './components/atoms/footer-title/footer-title.component';
-import { InputAtomComponent } from './components/atoms/input-atom/input-atom.component';
 import { CheckboxAtomComponent } from './components/atoms/checkbox-atom/checkbox-atom.component';
 import { LoginFormMoleculeComponent } from './components/molecules/login-form-molecule/login-form-molecule.component';
 import { LoginFormComponent } from './components/molecules/login-form/login-form.component';
@@ -45,9 +44,23 @@ import { CheckComponent } from './components/atoms/check/check.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { IconsSearchFromComponent } from './components/atoms/icons-search-from/icons-search-from.component';
 import { DatesComponent } from './components/templates/dates/dates.component';
+import { NosotrosTemplatesComponent } from './components/templates/nosotros-templates/nosotros-templates.component';
+import { NosotrosComponent } from '../features/feature-a/pages/nosotros/nosotros.component';
+import { ImgNavBarComponent } from './components/atoms/img-nav-bar/img-nav-bar.component';
+import { NavBarImgComponent } from './components/molecules/nav-bar-img/nav-bar-img.component';
+import { TitleSectinsComponent } from './components/atoms/title-sectins/title-sectins.component';
+import { TitleAllComponent } from './components/atoms/title-all/title-all.component';
+import { IconsNosotrosComponent } from './components/atoms/icons-nosotros/icons-nosotros.component';
+import { TargetNosotrosComponent } from './components/molecules/target-nosotros/target-nosotros.component';
+import { TitleCartsComponent } from './components/atoms/title-carts/title-carts.component';
+import { TextNostrosComponent } from './components/atoms/text-nostros/text-nostros.component';
+import { CartNosotrosComponent } from './components/organisms/cart-nosotros/cart-nosotros.component';
+import { SpaceEmptyComponent } from './components/atoms/space-empty/space-empty.component';
+import { TextEspaceEmptyComponent } from './components/atoms/text-espace-empty/text-espace-empty.component';
 
 @NgModule({
   declarations: [
+    NosotrosComponent,
     NavBarComponent,
     DatesComponent,
     ButtonComponent,
@@ -72,7 +85,6 @@ import { DatesComponent } from './components/templates/dates/dates.component';
     IconUserComponent,
     FooterLinkComponent,
     FooterTitleComponent,
-    InputAtomComponent,
     CheckboxAtomComponent,
     LoginFormMoleculeComponent,
     LoginFormComponent,
@@ -92,7 +104,19 @@ import { DatesComponent } from './components/templates/dates/dates.component';
     ButtonCloseComponent,
     CheckComponent,
     IconsSearchFromComponent,
-  ],
+    NosotrosTemplatesComponent,
+    ImgNavBarComponent,
+    NavBarImgComponent,
+    TitleSectinsComponent,
+    TitleAllComponent,
+    IconsNosotrosComponent,
+    TargetNosotrosComponent,
+    TitleCartsComponent,
+    TextNostrosComponent,
+    CartNosotrosComponent,
+    SpaceEmptyComponent,
+    TextEspaceEmptyComponent,
+    ],
   imports: [
     CommonModule,
     ReactiveFormsModule
@@ -102,7 +126,8 @@ import { DatesComponent } from './components/templates/dates/dates.component';
     DatesComponent,
     TravelSectionComponent,
     FooterComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
+    NosotrosTemplatesComponent
   ]
 })
 export class SharedModule { }

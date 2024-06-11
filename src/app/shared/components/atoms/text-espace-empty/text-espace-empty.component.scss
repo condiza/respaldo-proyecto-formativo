@@ -1,0 +1,15 @@
+@import '../../../../../styles/app-loading.scss';
+@import '../../../../../styles/colors.scss';
+
+.conten{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-family: $poppins;
+    font-size: 28px;
+    font-weight: 400;
+    color: $color-primary;
+    text-align: center;
+}

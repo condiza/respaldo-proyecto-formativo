@@ -1,0 +1,9 @@
+.fondo, .sombra{
+    width:100%;
+    height: 100%;
+}
+
+.sombra{
+  position: absolute;
+  z-index: 1;
+}

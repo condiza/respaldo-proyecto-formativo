@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MaintenancePageComponentComponent } from './shared/components/organisms/maintenance-page-component/maintenance-page-component.component';
 import { HomeComponent } from './features/feature-a/pages/home/home.component';
+import { NosotrosComponent } from './features/feature-a/pages/nosotros/nosotros.component';
+import { MaintenancePageComponentComponent } from './shared/components/organisms/maintenance-page-component/maintenance-page-component.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,10 @@ const routes: Routes = [
   },
   {
     path: 'Nosotros',
+    component: NosotrosComponent
+  },
+  {
+    path: 'Ayuda',
     component: MaintenancePageComponentComponent
   },
 ];

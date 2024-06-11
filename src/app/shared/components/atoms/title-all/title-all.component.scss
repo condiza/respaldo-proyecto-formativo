@@ -1,0 +1,17 @@
+@import '../../../../../styles/app-loading.scss';
+@import '../../../../../styles/colors.scss';
+
+.title-section{
+    font-size: $poppins;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.lineas{  
+    margin: 0% 0% 0% 5.5%;
+}
+
+.linea{
+    border: solid 2px $color-primary;
+    width: 100%;
+}
