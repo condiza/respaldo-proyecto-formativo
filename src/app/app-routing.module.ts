@@ -5,6 +5,8 @@ import { MaintenancePageComponentComponent } from './shared/components/organisms
 import { HomeComponent } from './features/feature-a/pages/home/home.component';
 
 const routes: Routes = [
+  { path: '**', component:  HomeComponent}, // Ruta para manejar 404
+
   {
     path: 'Registro',
     loadChildren: () => import('./features/feature-a/pages/Auth/auth.routes').then(m => m.AuthRoutingModule),
